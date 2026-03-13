@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 from PIL import Image
-from tensorflow.keras.models import load_model
+import tensorflow as tf
 
 st.set_page_config(
     page_title="Age & Gender Detector",
@@ -11,7 +11,7 @@ st.set_page_config(
 
 @st.cache_resource
 def load_age_gender_model():
-    return load_model("Age_Sex_Detection.h5")
+    return tf.keras.models.load_model("Age_Sex_Detection.h5", compile=False)
 
 model = load_age_gender_model()
 
