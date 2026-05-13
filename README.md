@@ -6,7 +6,7 @@ A machine learning-powered web application that detects **age** and **gender** f
 
 ## 🚀 Live Demo
 
-👉 [Try it on Hugging Face Spaces](https://huggingface.co/spaces/shourya512/age-gender-detection)
+👉 [Try it on Hugging Face Spaces](https://huggingface.co/spaces/Shourya512/age-gender-detector)
 
 ---
 
